@@ -1,0 +1,20 @@
+{
+  "name": "circleshooter",
+  "version": "1.0.0",
+  "description": "Circle 을 Shoot 하여 Enemy를 Defeat 하시오",
+  "main": "index.js",
+  "scripts": {
+    "push": "git add . && git commit -m '--' && git push ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namoda378/CircleShooter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namoda378/CircleShooter/issues"
+  },
+  "homepage": "https://github.com/namoda378/CircleShooter#readme"
+}

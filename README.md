@@ -12,6 +12,29 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오
 
 1. 변수 
 
+```lua 
+   -- local, .. , +-/* 
+
+   local namo1 = 5
+   namo1 = 3 + 5 
+   print( namo1 )
+   -- 출력 : 8 
+
+   local cy = 6 + namo1 
+   print( cy )
+   -- 출력 : 14 
+
+   local my_dogs_name = "DDuby"
+   local his_dogs_name = "Mimi"
+
+   print( my_dogs_name + his_dogs_name  )
+   -- 오류 !! 
+
+   print( my_dogs_name .. his_dogs_name  )
+   -- 출력 : DDubyMimi
+
+```
+
 2. 연산 
 
 3. 배열
