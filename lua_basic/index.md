@@ -5,7 +5,7 @@
 
 * 선행학습하기 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
-1. [변수와 연산 local ](#1-변수와-연산) 
+1. [변수와 연산](#1-변수와-연산) 
 2. [배열과 테이블 {}](#2-배열과-테이블) 
 3. [조건문 if](#3-조건문-if)
 4. [반복문 for](#4-반복문-for)
