@@ -9,6 +9,7 @@
 2. [배열과 테이블](#2-배열과-테이블) 
 3. [조건문 if](#3-조건문-if)
 4. [반복문 for](#4-반복문-for)
+5. [함수 function](#5-함수-function)
 
 ------------------------------------------------------------------------------
 
@@ -206,12 +207,24 @@
 ```
 
 -----
-## 5. 함수
+## 5. 함수 (function)
 
------
-## 6. 참조값과 기초값 
+   1. 함수는 if 나 for 처럼 코드를 담는 블록이다. 
+      * if 는 조건이 true 일 때 안에 있는 코드가 실행된다.
+      * for 는 테이블에 있는 원소의 갯수 만큼 안에 있는 코드가 실행된다.
+      * function 은 함수가 호출될 때, 안에 있는 코드가 실행된다. 
 
+```lua 
+   local outer_var = "namo"
 
------
-## 6. 블록 
-   1. 코드의 실행 순서 
+   function dosth(x)
+
+   print(" dosth " .. "sth is called with " .. x .. " and outer var is still " .. outer_var)
+
+   end
+
+   -- for loop
+   for i,v in ipairs({"apple","bee","cat"}) do 
+   dosth(v)
+   end
+```
