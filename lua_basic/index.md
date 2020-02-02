@@ -130,6 +130,13 @@
 
    local a = 3 
    local b = "문자열입니다"
+   local c = {"나","는","배열","이다"}
+
+   local d = true 
+   -- true(참) 값을 갖는 변수 
+   local e = false 
+   -- false(거짓) 값을 갖는 변수 
+
 
 ```
 
