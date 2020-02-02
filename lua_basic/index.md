@@ -73,6 +73,29 @@
 
 ```
 
+   2. 테이블은 key값(이름)과 value값(할당값)의 나열이라고 볼 수 있다. 
+      * 사실 루아에서 배열은 그저 자동으로 순서가 key값으로 지정된 테이블이라는 것을 알게 될 것이다!
+      * table 이라는 이름의 테이블을 만들 수 없다. table은 루아에서 그 용도가 이미 지정된 단어이기 때문이다. 
+
+```lua 
+
+   local table = {}
+   -- 오류 !! 
+
+   local my_dog_table = {name="치치",age=3,breed="Maltese"}
+   -- OK
+
+   -- 테이블 원소의 접근 
+   print(my_dog_table.name) -- 출력 : 치치
+   print(my_dog_table.age) -- 출력 : 3
+   print(my_dog_table.breed) -- 출력 : Maltese
+   
+   -- 테이블 정보 사용 예시 
+   print("My dog's name is " .. my_dog_table.name .. " and she is " .. my_dog_table.age .. " years old" ) 
+   -- 출력 : My dog's name is 치치 and she is 3 years old 
+   
+```
+
 
 -----
 #### 4. 반복문 
