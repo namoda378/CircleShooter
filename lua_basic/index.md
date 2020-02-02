@@ -19,6 +19,8 @@
    - [변수에 대한 더 깊은 이해](./variables_advanced.md)
    - 루아 영문 가이드 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
+<br/>
+
 ------------------------------------------------------------------------------
 
 
