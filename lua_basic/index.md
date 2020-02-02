@@ -236,8 +236,9 @@
 
    1. 변수의 이해 중급
       
-      - 스코프 
-      - 참조값과 절대값
+      - scope 
+      - reference vs primitive
+      - type
 
    2. 다른 관점에서 이해하기 
       
