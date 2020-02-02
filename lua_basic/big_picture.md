@@ -4,12 +4,12 @@
    0. Lua 코드란 무엇인가
       
       - 루아코드는 3가지 요소로 이루어져 있다. 
-         - 키워드 : local function and ...
-         - 변수명 : (사용자가 정의) apple apple1 my_name myName print ipairs ...
-         - 연산자 : + / - * , ... 
+         - <span style="color:red;'">키워드</span> : local function and ...
+         - <span style="color:green;'">변수명</span> : (사용자가 정의) apple apple1 my_name myName print ipairs ...
+         - <span style="color:blue;'">연산자</span> : + / - * , ... 
 
-      - 변수명 print , ipairs , pairs은 코드 실행 시작 전 부터 이미 그 값이 함수로 정의되어 있다.
-         - 이 변수명에 무언가를 할당할 수도 있다 !!, 근데 초보일 땐, 절대 하지 말 것
+      - <span style="color:green;'">변수명</span> print , ipairs , pairs은 코드 실행 시작 전 부터 이미 그 값이 함수로 정의되어 있다.
+         - 이 <span style="color:green;'">변수명</span>에 무언가를 할당할 수도 있다 !!, 근데 초보일 땐, 절대 하지 말 것
             ```lua    
                -- 함수가 아닌 숫자를 할당
                print = 1 
@@ -24,19 +24,19 @@
 
       - 이 세가지 요소를 문법(syntax)에 맞게 열거하면 실행 가능한 코드가 된다. 
 
-   1. 핵심 키워드와 연산자 요약. 
+   1. 핵심 <span style="color:red;'">키워드</span>와 <span style="color:blue;'">연산자</span> 요약. 
       
-      - (핵심 키워드와 핵심 연산자만 알아도 원하는 거의 모든 코드를 짤 수는 있다) 
+      - (핵심 <span style="color:red;'">키워드</span>와 핵심 <span style="color:blue;'">연산자</span>만 알아도 원하는 거의 모든 코드를 짤 수는 있다) 
 
-      1. 핵심 키워드
-         - (핵심 키워드를 포함해서 모든 키워드는 변수명으로 쓰일 수 없다) 
+      1. 핵심 <span style="color:red;'">키워드</span>
+         - (핵심 <span style="color:red;'">키워드</span>를 포함해서 모든 <span style="color:red;'">키워드</span>는 변수명으로 쓰일 수 없다) 
          * local : 변수를 선언할 때,
          * if then end : 조건문을 만들 때,
          * for in do end : 반복문을 만들 때,
          * function return end : 함수를 만들 때,
          * true false : boolean 변수의 참 거짓 값,
 
-      2. 핵심 연산자 
+      2. 핵심 <span style="color:blue;'">연산자</span> 
          - () {} 
          - \+ \- / * % 
          - = == 
