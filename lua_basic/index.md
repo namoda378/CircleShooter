@@ -16,8 +16,8 @@
 
 ### 중급으로 가는 길 
    - [Lua의 4요소](./docs/four_elements.md)
-   - [메모리와 코드의 실행](./execution.md)
-   - [변수에 대한 더 깊은 이해](./variables.md)
+   - [메모리와 코드의 실행](./docs/execution.md)
+   - [변수에 대한 더 깊은 이해](./docs/variables.md)
    - 루아 영문 가이드 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
 <br/>
