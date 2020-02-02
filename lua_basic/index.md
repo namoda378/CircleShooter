@@ -121,13 +121,13 @@
 
    1. bool 변수 
 
-      * 여태까지 배운 변수의 종류 아래와 같다. 
-         * 숫자 : 1 , 2 , 3 , 3.14 , 1.125 .... 
-         * 문자열 : "Hello" , "Green Apple" ....    
-         * 배열 혹은 테이블 : {"apple","bee",100} , {"가",12,{1,2,3}}, {name="치치",age=3,breed="Maltese"}
+      * 변수에 할당 할 수 있는 값의 종류(type)는 아래와 같다. (여태까지 배운거 기준 ...)
+         * 숫자(number) : 1 , 2 , 3 , 3.14 , 1.125 .... 
+         * 문자열(string) : "Hello" , "Green Apple" ....    
+         * 배열 혹은 테이블(table) : {"apple","bee",100} , {"가",12,{1,2,3}}, {name="치치",age=3,breed="Maltese"}
 
-      * 그런데 앞으로 두 가지 변수가 더 있는 데, 하나는 bool 이고 둘째는 function이다. function은 나중에 배우도록 하고, 조건문을 사용하기 위해 필요한 bool에 대해 배워보자. bool 은 두가지 값을 갖는다. 
-         * true false 
+      * 그런데 앞으로 두 가지 종류의 값이 더 있는 데, 하나는 boolean 이고 둘째는 function이다. function은 나중에 배우도록 하고, 조건문을 사용하기 위해 필요한 boolean 에 대해 배워보자. boolean type은 두가지 값을 포괄한다. 
+         * 불리언(boolean) true false 
 
 ```lua 
 
@@ -136,9 +136,9 @@
    local c = {"나","는","배열","이다"}
 
    local d = true 
-   -- true(참) 값을 갖는 변수 
+   -- true(참) 값을 갖는 boolean type 변수 
    local e = false 
-   -- false(거짓) 값을 갖는 변수 
+   -- false(거짓) 값을 갖는 boolean type 변수 
 
 ```
 
