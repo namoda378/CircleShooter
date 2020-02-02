@@ -1,19 +1,14 @@
-a = a + 4
 
 -- 이 코드는 무엇을 하는 코드입니다. 
-a = "namo"
 
--- print(a)
+local outer_var = "namo"
 
 function dosth(x)
 
-  local a = " nana "
-
-  print(" do " .. a .. "sth is called with " .. x)
+  print(" dosth " .. "sth is called with " .. x .. " and outer var is still " .. outer_var)
 
 end
 
 -- for loop
 for i,v in ipairs({"apple","bee","cat"}) do 
-  dosth(v)
-end
+  dosth(v)Ayy
