@@ -58,7 +58,6 @@
          * if then end : 조건문을 만들 때,
          * for in do end : 반복문을 만들 때,
          * function return end : 함수를 만들 때,
-         * true false : boolean 변수의 참 거짓 값,
 
       2. 핵심 연산자 
          - () {} 
@@ -66,9 +65,3 @@
          - = == 
          - .. 
          - ,
-
-   3. 블록의 종류와 실행 순서
-
-      - 조건문 
-      - 반복문 
-      - 함수 
