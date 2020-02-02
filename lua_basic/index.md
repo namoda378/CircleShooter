@@ -14,10 +14,10 @@
 
 <br/>
 
-- 중급으로 가는 길 
-   - [프로그래밍 언어 Lua 큰 그림](./big_picture.md)
-   - [변수에 대한 더 깊은 이해](./variables_advanced.md)
-   * 루아 영문 가이드 : https://docs.coronalabs.com/guide/start/introLua/index.html
+## 중급으로 가는 길 
+- [프로그래밍 언어 Lua 큰 그림](./big_picture.md)
+- [변수에 대한 더 깊은 이해](./variables_advanced.md)
+- 루아 영문 가이드 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
 ------------------------------------------------------------------------------
 
