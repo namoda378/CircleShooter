@@ -1,8 +1,8 @@
-# 루아 베이직
+# 루아베이직
 ----------------------
 
 ## 목차
-
+* 계속 업데이트 중인 문서입니다.
 * 선행학습하기 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
 1. [변수와 연산](#1-변수와-연산) 
