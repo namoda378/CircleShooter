@@ -8,6 +8,6 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오
    https://repl.it/languages/lua
 
 
-[루아 베이직 md 파일 보기](./lua_basic.md)
+[루아 베이직 md 파일 보기](./lua_basic/index.md)
 
 
