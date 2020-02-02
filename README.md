@@ -10,7 +10,7 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오
 
 ### 루아 기본 
 
-1. 변수 
+1. 변수와 연산 
 
 ```lua 
    -- local, .. , +-/* 
@@ -32,8 +32,10 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오
 
    print( my_dogs_name .. his_dogs_name  )
    -- 출력 : DDubyMimi
-
 ```
+   1. 변수의 이름은 영대소문자로 시작하고, 그 뒤에 공백없이 영대소문자 및 '_'기호와 숫자로 이루어져 있다.
+      * apple apple1 Apple Apple_1 AppleOne apple___one 등 
+
 
 2. 연산 
 
