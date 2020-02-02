@@ -4,7 +4,11 @@
 ### 1. 변수와 연산 
 
    1. 변수의 이름은 영대소문자로 시작하고, 그 뒤에 공백없이 영대소문자 및 '_'기호와 숫자로 이루어져 있다.
-      * apple apple1 Apple Apple_1 AppleOne apple___one 등 
+
+      * apple  apple1  Apple  Apple_1  AppleOne  apple___one  ... 등 
+   
+      * 다음의 단어들은 변수의 이름으로 쓸 수 없는 데, 이는 Lua 에서 이미 용도가 약속된 단어들이기 때문이다. ( 이런 단어들을 Keyword 라고 부른다. )
+         * local    and    break    do    else    elseif    end    false    for    function    if    in    nil    not    or    repeat    return    then    true    until    while
 
 ```lua 
    -- local, .. , +-/* 
