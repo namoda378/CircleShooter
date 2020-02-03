@@ -84,6 +84,7 @@
    웃기게도, 목록과 객체는 완전히 같은 방식으로 선언한다. \(`local 변수명 = {}`\)
    이것은 Lua 만의 특징이라고 할 수 있는데, 그렇다면 객체는 일종의 목록인가? 그렇다고도 할 수 있겠다. 아래의 코드는 완전히 같은 코드이다. 
    ```lua
+
       local A = {}
       A["type"] = "human"
       A["age"] = 30
@@ -105,4 +106,45 @@
 
 ### 코드는 이름을 부여하고 쓰고, 읽는다. 그리고 연산한다. 
 
-   앞에서 언급하지 않은 한가지는 "연산"이다. 
+   앞에서 언급하지 않은 한가지는 "연산"이다. 연산은 하나 이상의 값을 조합하여, 새로운 값을 산출한다. 
+
+   ```lua 
+      
+      local a = 1 
+      local b = 3 
+
+      print(a+b) -- 4
+      print(a-b) -- -2
+      print(a*b) -- 3
+      print(a/b) -- 0.33333333333 (소숫점 자릿수는 환경에 따라 다름)
+      print(a%b) -- 1  (나머지)
+   ```
+
+   수학 연산 이외에는 비교 연산이 있다. 
+
+   ```lua 
+      local a = 1 
+      local b = 3 
+
+      print(a == b) -- false
+      print(a ~= b) -- true
+      print(a < b)  -- true
+      print(a <= b) -- true
+      print(a > b)  -- false
+      print(a >= b) -- false
+      
+      print( true and true )  -- true
+      print( true and false )  -- false
+      print( true or false )  -- true
+      print( false or false )  -- false
+   ```
+   
+   문서를 요약하자면 코드가 하는 일은 4 가지이다.  
+
+   1. 메모리상의 칸에 이름을 부여한다. 
+
+   2. 칸에 값을 쓴다. 
+
+   3. 칸에서 값을 읽는다. 
+
+   4. 하나 이상의 값을 연산하여 새로운 값을 산출한다.
