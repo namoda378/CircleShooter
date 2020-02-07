@@ -16,9 +16,10 @@
 
 ### 중급으로 가는 길 
    - [Lua의 4요소](./docs/four_elements.md)
-   - [코드의 실행 순서](./docs/execution_order.md)
    - [메모리 상태 변화](./docs/memory_state.md)
-   - [변수에 대한 더 깊은 이해](./docs/variables.md)
+   - [코드의 실행 순서](./docs/execution_order.md)
+   - [함수에 대하여](./docs/functions.md)
+   - [Corona SDK는 무엇인가?](./docs/corona_sdk.md)
    - 루아 영문 가이드 : https://docs.coronalabs.com/guide/start/introLua/index.html
 
 <br/>
