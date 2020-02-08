@@ -7,6 +7,8 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오. 강,박,이 의 게임 제작
 프로그래밍 언어 루아 놀이터 
    - https://repl.it/languages/lua
 
+해커랭크 알고리즘 공부 
+   - https://www.hackerrank.com/
 
 <br/>
 
