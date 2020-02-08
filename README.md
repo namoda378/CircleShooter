@@ -10,6 +10,9 @@ Circle 을 Shoot 하여 Enemy를 Defeat 하시오. 강,박,이 의 게임 제작
 해커랭크 알고리즘 공부 
    - https://www.hackerrank.com/
 
+코로나 이미 올리기 
+   - https://docs.coronalabs.com/api/library/display/newImage.html
+
 <br/>
 
 ## 서브프로젝트 
