@@ -55,7 +55,7 @@ for i = 1 , num do
     local x0 = circ.x
     local y0 = circ.y
     
-    Runtime:addEventListener("enterFrame",function()
+    circ:addEventListener("enterFrame",function()
         a = a + math.random(1,5)*0.01
         b = b + math.random(1,5)*0.01
         circ.x = x0 + math.sin(a)*200
